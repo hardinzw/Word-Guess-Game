@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Hangman</Title>
+    <!--Link to external css-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1><strong>HANGMAN!</strong></h1>
+        </div>
+        <div class="edition">
+            <h2><strong>Hollywood Blockbusters</strong></h2>
+        </div>
+    </header>
+
+    <div class="container">
+        <p id="game-start">Press any key to get started!</p>
+        <p id="wins">Wins:</p>
+        <div id="win-streak"></div>
+        <p id="current-word">Current word:</p>
+        <div id="puzzle"></div>
+        <p id="remaining-guesses">Number of guesses remaining:</p>
+        <div id="guess-counter"></div>
+        <p id="guessed-letters">Letters guessed:</p>
+        <div id="letter-counter"></div>
+    </div>
+</body>
